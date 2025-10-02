@@ -3,7 +3,7 @@ import webbrowser
 import pyautogui
 from time import sleep
 
-# webbrowser.open('https://cursoautomacao.netlify.app/')
+webbrowser.open('https://cursoautomacao.netlify.app/')
 
 # Encontre e clique no campo "digite seu nome" dentro de "exemplos Alertas" e digite seu nome
 pyautogui.moveTo(1393,347,duration=2)
